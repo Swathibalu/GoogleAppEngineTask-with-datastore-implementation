@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <meta http-equiv="content-type" content="application/xhtml+xml; charset=UTF-8" />
+    <title>Hello App Engine</title>
+  </head>
+
+  <body bgcolor="lightblue">
+    <h1 style="color: blue">Hello!! Enter User details</h1>
+
+
+	<form action="hello" method="post">
+	<p style="color: red">User Name:<input type="text" name="uname"></p>
+	<p style="color: red">DOB:<input type="text" name="dob"></p>
+	<p style="color: red">Gender:<input type="text" name="gender"></p>
+	<p style="color: red">Age:<input type="text" name="age"></p>
+	<input type="Submit">
+	
+	</form>
+	<form action="update" method="post">
+	<p style="color: red">Update User Name:<input type="text" name="uuname"></p>
+	<p style="color: red">Update DOB:<input type="text" name="udob"></p>
+	<p style="color: red">Update Gender:<input type="text" name="ugender"></p>
+	<p style="color: red">Update Age:<input type="text" name="uage"></p>
+    <button onclick="Update">Update Data</button>  
+    <button onclick="ClearData">Delete</button>
+	</form>
+  </body>
+</html>

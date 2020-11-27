@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+  <servlet>
+  <servlet-name>userdetailsservlet</servlet-name>
+  <servlet-class>com.GoogleAEdemo.HelloAppEngine</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  <servlet-name>userdetailsservlet</servlet-name>
+  <url-pattern>/hello</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-name>Updateuserdetailsservlet</servlet-name>
+  <servlet-class>com.GoogleAEdemo.Updateuserdetailsservlet</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  <servlet-name>Updateuserdetailsservlet</servlet-name>
+  <url-pattern>/update</url-pattern>
+  </servlet-mapping>
+  
+  
+</web-app>
